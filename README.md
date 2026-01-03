@@ -56,6 +56,31 @@ problema antes da solução
 
 cognição assistida, não substituída
 
+## 📚 Documentação Oficial
+
+Este repositório contém a especificação oficial do **GLYPH Protocol**, uma linguagem universal para a formulação estruturada de problemas.
+
+### Documentos Canônicos
+
+- 📘 **GLYPH Core Protocol v1.0**  
+  Especificação oficial da linguagem, estrutura, regras e critérios de validação.
+
+- 📘 **GLYPH Reference Cases v1**  
+  Conjunto canônico de GLYPHs reais selecionados como **casos de referência pedagógicos**, utilizados para ensino, interpretação e alinhamento conceitual do protocolo.  
+  👉 [`GLYPH_Reference_Cases_v1.md`](./GLYPH_Reference_Cases_v1.md)
+
+- 📘 **How to Think in GLYPH**  
+  Guia neuroinclusivo para aprender a observar, formular e validar problemas usando o protocolo GLYPH.
+
+- 📘 **GPN Specification v1**  
+  Especificação da rede de problemas (Glyph Problem Network), descrevendo como GLYPHs se conectam em nível sistêmico.
+
+Todos os documentos seguem política de versionamento e congelamento oficial.
+
+> ⚠️ Nota importante  
+> Os *Reference Cases* não são categorias, rótulos ou classificações.  
+> Eles existem exclusivamente como âncoras pedagógicas e **não alteram a estrutura canônica do dataset GLYPH**.
+
 Como o GLYPH funciona
 
 Todo problema, para ser considerado um GLYPH válido, segue uma estrutura canônica obrigatória:
