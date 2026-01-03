@@ -251,6 +251,10 @@ For licensing, partnerships, or commercial inquiries, please contact the author.
 
 See [`LICENSE.md`](./LICENSE.md) for full license details.
 
+📌 **Citação acadêmica:**  
+Este projeto possui arquivo `CITATION.cff` para uso em pesquisas e publicações.
+
+
 
 Add README — GLYPH institutional overview
 
