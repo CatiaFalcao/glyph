@@ -207,6 +207,26 @@ GLYPH não é uma tendência.
 
 É uma necessidade estrutural.
 
+---
+
+## © Copyright & License
+
+© 2026 **Catia Falcão**. All rights reserved.
+
+This repository and all its contents — including texts, diagrams, datasets, specifications, and methodological descriptions related to **GLYPH** — are protected by copyright law.
+
+This work is licensed under the  
+**Creative Commons Attribution–NonCommercial–NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)**.
+
+You are free to read, share, and use this material for **educational and academic purposes**, provided that proper attribution is given.
+
+🚫 **Commercial use, derivative works, adaptations, or redistribution for profit are strictly prohibited without explicit written permission from the author.**
+
+For licensing, partnerships, or commercial inquiries, please contact the author.
+
+See [`LICENSE.md`](./LICENSE.md) for full license details.
+
+
 Add README — GLYPH institutional overview
 
 Se parece óbvio depois de explicado, é porque deveria ter existido antes.
