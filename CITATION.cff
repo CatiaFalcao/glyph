@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use GLYPH in academic work, research, teaching, or applied studies, please cite it as below."
+title: "GLYPH Protocol: A Universal Language for Problem Formulation"
+version: "1.0.0"
+date-released: 2026-01-01
+license: "CC-BY-NC-4.0"
+repository-code: "https://github.com/SEU_USUARIO/GLYPH"
+url: "https://github.com/SEU_USUARIO/GLYPH"
+
+authors:
+  - family-names: "Falcão"
+    given-names: "Catia"
+    orcid: ""   # opcional, pode deixar vazio por enquanto
+    affiliation: "Independent Researcher"
+
+keywords:
+  - problem formulation
+  - systems thinking
+  - cognitive modeling
+  - neuroinclusive design
+  - decision making
+  - problem language
+  - glyph protocol
+  - gpn
+  - organizational learning
+
+abstract: >
+  GLYPH is a universal, domain-independent protocol designed to formalize
+  the structured formulation of real problems before solution development.
+  It provides a canonical structure, validation rules, and a neuroinclusive
+  cognitive framework that enables humans and systems to describe, compare,
+  and learn from problems across organizational, industrial, human,
+  environmental, and digital domains.
+
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Falcão"
+      given-names: "Catia"
+  title: "GLYPH Protocol v1.0: A Universal Language for Problem Formulation"
+  year: 2026
+  version: "1.0.0"
+  url: "https://github.com/SEU_USUARIO/GLYPH"
