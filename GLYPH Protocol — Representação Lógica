@@ -1,0 +1,44 @@
+# GLYPH Protocol — Representação Lógica
+```mermaid
+flowchart TD
+  ... flowchart TD
+
+  %% ── ENTRADA ──────────────────────────────────────
+  INICIO([Problema observado])
+
+  %% ── CAMPOS CANÔNICOS ─────────────────────────────
+  G1["**G1 — System**\nDelimitação do sistema"]
+  G2["**G2 — Context**\nCondições em que o problema ocorre"]
+  G3["**G3 — Symptom**\nManifestação observável do problema"]
+  G4["**G4 — Impact**\nConsequências mensuráveis"]
+  G5["**G5 — Variables**\nElementos relevantes associados"]
+  G6["**G6 — Causal Chain**\nEncadeamento lógico entre variáveis"]
+  G7["**G7 — Leverage Point**\nPonto de maior influência no sistema"]
+  G8["**G8 — Success Criteria**\nCritérios objetivos de avaliação"]
+
+  %% ── VALIDAÇÃO ────────────────────────────────────
+  VAL{Todos os campos\ncompletos e coerentes?}
+
+  %% ── SAÍDA ────────────────────────────────────────
+  FIM([GLYPH estruturado])
+
+  %% ── FLUXO PRINCIPAL ──────────────────────────────
+  INICIO --> G1 --> G2 --> G3 --> G4 --> G5 --> G6 --> G7 --> G8 --> VAL
+
+  %% ── DECISÃO ──────────────────────────────────────
+  VAL -- "sim" --> FIM
+  VAL -- "não\n(revisar)" --> G1
+
+  %% ── ESTILOS ──────────────────────────────────────
+  classDef contexto  fill:#EEEDFE,stroke:#534AB7,color:#3C3489
+  classDef observ    fill:#FAECE7,stroke:#993C1D,color:#712B13
+  classDef causal    fill:#E1F5EE,stroke:#0F6E56,color:#085041
+  classDef avaliacao fill:#FAEEDA,stroke:#854F0B,color:#633806
+  classDef neutro    fill:#F1EFE8,stroke:#5F5E5A,color:#2C2C2A
+
+  class G1,G2 contexto
+  class G3,G4 observ
+  class G5,G6 causal
+  class G7,G8 avaliacao
+  class INICIO,FIM,VAL neutro
+```
